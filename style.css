@@ -153,13 +153,14 @@ form label {
 
 form input[type="text"] {
   color: #000;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 20px;
+  width: 98%;
 }
 
 form textarea {
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
   width: 98%;
   height: 4.75rem;
@@ -177,7 +178,7 @@ form button {
 legend {
   background-color: #000;
   color: white;
-  padding: 3px 6px;
+  padding: 8px 10px;
   border-radius: 6px;
 }
 
@@ -186,7 +187,7 @@ fieldset {
   min-width: 250px;
   padding: 10px 12px;
   border-radius: 6px;
-  border-style: groove;
+  border-style: solid;
 }
 
 /* this makes the google map responsive */

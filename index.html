@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Cassone | Software Engineer</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <header class="black-background">
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                    <li><a href="#my-projects">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="about-me" class="green-background">
+            <div class="content-wrap">
+                <h1>Sean Cassone</h1>
+                <h2>Thinkful Student + Software Engineer</h2>
+                <p>I am new to the Raleigh, NC, area. While I spend most of my time on the computer learning about
+                    development,
+                    I like to get outside and enjoy the outdoors. You can find me hiking or biking on a trail nearby.
+                </p>
+                <p>As a student at Thinkful, I have begun my journey to become a software engineer. I am very excited to
+                    learn
+                    this new skill and work with a team of like-minded professionals.</p>
+                <p>As a developer, I can offer a wide range of services. I look forward to getting started on your
+                    project.</p>
+                <ul>
+                    <li>Website Design</li>
+                    <li>Build applications using React, JavaScript, CSS, and HTML</li>
+                    <li>Mobile-first Development to optimize the web experience over all devices</li>
+                    <li>Deployment and management of your hosted website.</li>
+                </ul>
+
+            </div>
+        </section>
+        <!-- ***************  Contact **************** -->
+        <section id="contact-me" class="blue-background">
+            <div class="content-wrap">
+                <h2>Let's Stay in Touch!</h2>
+                <p>I look forward to hearing from you! Please follow me on LinkedIn or check out
+                    my projects on Github. You can also email me at the address below or send me a message directly
+                    using the
+                    form
+                    below.</p>
+
+                <!-- ***************  linked in Git Hub Email**************** -->
+                <ul class="contact-list">
+                    <li><a href="mailto:sean.cassone@gmail.com">sean.cassone@gmail.com</a></li>
+                    <li><a href="https://github.com/SeanCassone" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/sean-cassone/" target="_blank">LinkedIn</a></li>
+                </ul>
+
+                <!-- ***************  Form **************** -->
+                <fieldset>
+                    <form action="https://formspree.io/f/xyylgqpz" method="post">
+                        <div>
+                            <label for="full-name">Full name:</label>
+                            <input id="full-name" type="text" name="first-name" placeholder="Enter your full name" />
+
+                            <label for="email">Email Address:</label>
+                            <input id="email" type="text" name="email" placeholder="Enter your email address" />
+
+                            <label for="phonenum">Phone #:</label>
+                            <input id="phonenum" type="text" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                                placeholder="xxx-xxx-xxxx" />
+
+                            <label for="form-message">Your message:</label>
+                            <textarea id="form-message" name="message" required maxlength="200"></textarea>
+
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </section>
+        <!-- ***************  Projects **************** -->
+        <section id="my-projects" class="projects green-background">
+            <div class="content-wrap">
+
+                <h2>Featured Projects</h2>
+                <p>View some of my selected projects below that showcase some of my skills as a developer</p>
+
+                <!-- ***************  Project 1 **************** -->
+                <section class="project-item">
+                    <img src="images/LocalLibrary.png" alt="LocalLibrary">
+                    <h3>Project Local Library</h3>
+                    <p>My neighborhood decided to put together a local library where people can lend and borrow books.
+                        So I helped
+                        build an app to keep track of which books are available, which are currently out, and other
+                        general
+                        statistics about the program. </p>
+                    <a class="btn" href="https://seancassone.github.io/my_local_library" target="_blank">Website</a>
+                    <a class="btn" href="https://github.com/SeanCassone/Project-Local-Library" target="_blank">GitHub
+                        Repo</a>
+                </section>
+
+                <!-- ***************  Project 2 **************** -->
+                <section class="project-item">
+                    <img src="images/CeaserShift.png" alt="DecoderRing">
+                    <h3>Decoder Ring</h3>
+                    <p>Decoder Ring is an app that has three different ciphers to encode and decode messages. The
+                        ciphers included
+                        Ceaser, Polybius square, and substitution. I built this app using JavaScript and HTML, and CSS.
+                        Go ahead and
+                        send some secret messages to your friends.</p>
+                    <a class="btn" href="https://seancassone.github.io/Project_Decoder_Ring_1/" target="_blank">Web
+                        Page</a>
+                    <a class="btn" href="https://github.com/SeanCassone/Project_Decoder_Ring_1" target="_blank">GitHub
+                        Repo</a>
+                </section>
+
+                <!-- ***************  Project 3 **************** -->
+                <section class="project-item">
+                    <img src="images/consrtuction.png" alt="">
+                    <h3>Pomodoro Timer</h3>
+                    <p>Ever hear of the Pomodoro Technique? It uses a timer to break down work into intervals. I am
+                        currently
+                        working on creating a custom Pomodoro timer to help me manage my time. Being designed with
+                        React, check back
+                        soon!</p>
+                    <a class="btn" href="#" target="_blank">Web Page</a>
+                    <a class="btn" href="#" target="_blank">GitHub Repo</a>
+                </section>
+
+            </div>
+        </section>
+        <!-- ***************  Google Map of Raleigh **************** -->
+        <div class=" map-responsive">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97721.66354578694!2d-78.67810149850872!3d35.8148914198987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f7%3A0x6790b6528a11f0ad!2sRaleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1611681109353!5m2!1sen!2sus"
+                width="400" height="300" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <!-- *************** Footer **************** -->
+        <footer class="black-background">
+            <h3>© Sean Cassone</h3>
+        </footer>
+
+    </main>
+</body>
+
+</html>

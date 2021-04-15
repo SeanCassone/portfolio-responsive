@@ -18,10 +18,9 @@ html {
 }
 
 body {
-  color: #353535;
   margin: 0;
   font-family: "Yusei Magic", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -84,7 +83,7 @@ footer h3 {
 /* class for medium background */
 .green-background {
   background-color: #9eefe5;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* class for light background */

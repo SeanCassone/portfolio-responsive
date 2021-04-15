@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   font-family: "Yusei Magic", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -138,6 +138,16 @@ footer h3 {
 .contact-list a {
   padding: 5px;
   display: inline-block;
+  color: #000;
+}
+
+.contact-list .btn {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  margin: 0 8px;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 /* form settings */
@@ -145,7 +155,7 @@ form label {
   display: block;
   font-size: 18px;
   margin-bottom: 5px;
-  color: white;
+  color: #000;
   font-family: Arial;
 }
 
